@@ -1,0 +1,22 @@
+--- PortalTransport/interfaces/subscribeable.py~	2004-01-20 12:45:00.000000000 +0100
++++ PortalTransport/interfaces/subscribeable.py	2004-12-12 12:29:45.537522112 +0100
+@@ -2,7 +2,7 @@
+ # -*- Mode: Python; py-indent-offset: 4 -*-
+ # * Copyright (C) 2003 Nikolay Kim <fafhrd@legco.biz> 
+ 
+-from interface import Interface
++from Interface import Interface
+ 
+ class IBaseSubscribeable(Interface):
+ 
+--- PortalTransport/interfaces/mailreceiver.py~	2004-02-26 07:49:05.000000000 +0100
++++ PortalTransport/interfaces/mailreceiver.py	2004-12-12 12:29:35.596033448 +0100
+@@ -2,7 +2,7 @@
+ # -*- Mode: Python; py-indent-offset: 4 -*-
+ # Authors: Nik Kim <fafhrd@legco.biz> 
+ 
+-from interface import Interface
++from Interface import Interface
+ 
+ class IMailReceiver(Interface):
+     """ object can receive mails """
