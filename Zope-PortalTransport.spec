@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.python
 %define		zope_subname	PortalTransport
 Summary:	Provides a subscription service for CMF
 Summary(pl):	Produkt dodaj±cy mo¿liwo¶æ subskrypcji dla us³ug CMF
