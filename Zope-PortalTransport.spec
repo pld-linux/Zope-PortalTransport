@@ -3,7 +3,7 @@ Summary:	Provides a subscription service for CMF
 Summary(pl):	Produkt dodaj±cy mo¿liwo¶æ subskrypcji dla us³ug CMF
 Name:		Zope-%{zope_subname}
 Version:	1.1
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Tools
 Source0:	http://dl.sourceforge.net/collective/%{zope_subname}-%{version}.tar.gz
@@ -13,7 +13,7 @@ URL:		http://sourceforge.net/projects/collective/
 Requires(post,postun):	/usr/sbin/installzopeproduct
 %pyrequires_eq	python-modules
 Requires:	Zope
-Requires:	Zope-CMF >= 1.4.2
+Requires:	Zope-CMF >= 1:1.4.2
 Requires:	Zope-CMFPlone >= 2.0
 Requires:	Zope-archetypes >= 1.2.5
 Requires:	Zope-stripogram
