@@ -3,7 +3,7 @@ Summary:	Provides a subscription service for CMF
 Summary(pl):	Produkt dodaj±cy mo¿liwo¶æ subskrypcji dla us³ug CMF
 Name:		Zope-%{zope_subname}
 Version:	1.1
-Release:	2
+Release:	3
 License:	GPL
 Group:		Development/Tools
 Source0:	http://dl.sourceforge.net/collective/%{zope_subname}-%{version}.tar.gz
