@@ -1,6 +1,6 @@
 %define		zope_subname	PortalTransport
 Summary:	Provides a subscription service for CMF
-Summary(pl.UTF-8):   Produkt dodający możliwość subskrypcji dla usług CMF
+Summary(pl.UTF-8):	Produkt dodający możliwość subskrypcji dla usług CMF
 Name:		Zope-%{zope_subname}
 Version:	1.1
 Release:	4
